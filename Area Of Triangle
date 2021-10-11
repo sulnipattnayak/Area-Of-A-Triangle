@@ -1,0 +1,10 @@
+class D {
+    public static void main(String[] args) { 
+        Point A = new Point(10, 20); 
+        Point B = new Point(10, 60);
+        Point C = new Point(80, 20); 
+        System.out.println("area of triangle using formula " + Triangle.area(A, B, C));  } } class Point { int x; int y; 
+        public Point(int x, int y) {
+            this.x = x; this.y = y; } 
+            
+        }
